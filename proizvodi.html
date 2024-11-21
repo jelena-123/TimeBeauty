@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+        <title>proizvodi</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="top-panel">
+            <a href="#"> Pozovite nas: 021 489 2511 </a>
+        </div>
+        <div class="container">
+            <img src="logo.lpg.jpg">
+            <nav>
+                <ul>
+                    <li><a href="početna.html">Početna</a></li>
+                    <li><a href="usluge.html">Usluge</a></li>
+                    <li><a href="galerija.html">Galerija</a></li>
+                    <li><a href="proizvodi.html">Proizvodi</a></li>
+                    <li><a href="o nama.html">O nama</a></li>
+                    <li><a href="kontakt.html">Kontakt</a></li>
+
+                </ul>
+            </nav>
+        </div>
+        
+    </header>
+    <h1>proizvodi</h1>
+    <img src="proizvod.png" style="width: 300px; height: 300px; border: radius 20%; ">
+    <img src="proizvodi2.jpg" style="width: 300px; height: 300px; border: radius 20%; float: right;">
+
+   
+
+
+    <label for="odgovorZaNegu">Koliko proizvoda za njegu ste probali?</label>
+    <input type="number" id="odgovorZaNegu">
+    <button onclick="prikaziProizvodeZaNegu()">Potvrdi</button>
+
+    <div id="drugoPitanjeZaNegu" style="display: block;">
+    </div>
+
+    <div id="listaProizvodaZaNegu" style="display: block;"> 
+    </div>
+
+
+    <div id="proizvodiZaNegu">
+        <p id="tekstProizvodaZaNegu">Ovdje su naši najpopularniji proizvodi za njegu.</p>
+    </div>
+    <button onclick="promenaProizvodaZaNegu()">Promeni stil</button>
+
+    <div id="kozmetickiProizvodi">
+        <p id="tekstKozmetickihProizvoda">Ovdje su naši najnoviji kozmetički proizvodi.</p>
+    </div>
+    <button  onclick="promenaKozmetickihProizvoda()" >Promeni stil</button>
+
+    <body>
+        <div id="kozmetickiSalon">
+            <p id="tekstKozmetickogSalona">Posjetite naš kozmetički salon i osjećajte se svježe i prekrasno!</p>
+        </div>
+        <button onclick="promieniStilKozmetickogSalona()">Promeni stil</button>
+    
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,408 @@
+html,
+body {
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, sans-serif;
+    background-color: antiquewhite;
+}
+
+
+.top-panel {
+    background-color: #ffeded;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+}
+
+.top-panel a {
+    color: #aecaa9;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+
+.top-panel a:hover {
+    color: #549aab;
+}
+
+.container {
+    width: 50%;
+    margin: 0 auto;
+    overflow: hidden;
+
+}
+
+header {
+    background-color: #aecaa9;
+    padding: 20px 0px;
+
+}
+
+header img {
+    float: left;
+    width: 100px;
+    height: 100px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+
+}
+
+nav ul {
+    float: right;
+    margin-top: 25px;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffeded;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+nav ul li a:hover {
+    background-color: #e7eada;
+}
+
+#usluge {
+    margin-top: 50px;
+}
+
+#usluge h2 {
+    color: #d0adba;
+    text-align: left;
+    font-size: 40px;
+    font-style: oblique;
+}
+
+#usluge h2:hover {
+    background-color: #aecaa9;
+}
+
+#usluge p {
+    font-weight: bold;
+    font-size: 15px;
+    font-style: italic;
+}
+
+#usluge h3 {
+    color: #d0adba;
+    text-align: left;
+    font-size: 30px;
+    font-style: oblique;
+}
+
+.usluga {
+    margin-bottom: 30px;
+}
+
+.usluga img {
+    max-width: 100%;
+    height: auto;
+    border-top-right-radius: 80px;
+    border-bottom-left-radius: 80px;
+}
+
+#galerija {
+    margin-top: 50px;
+
+}
+
+#galerija h2 {
+    color: #d0adba;
+    text-align: center;
+}
+
+#galerija h2:hover {
+    background-color: #8ca289;
+}
+
+.slika {
+    margin-bottom: 20px;
+}
+
+.slika img {
+
+    max-width: 80%;
+    height: auto;
+    border: 2px solid#8ca289;
+    border-radius: 30px;
+    transition: 0.5s ease;
+
+}
+
+
+.sidebar {
+    float: left;
+    width: 20%;
+    padding: 20px;
+    background-color: #aecaa9;
+
+}
+
+.social-links h3 {
+    color: aliceblue;
+    font-weight: bold;
+}
+
+.popular-content h3 {
+    color: aliceblue;
+    font-weight: bold;
+}
+
+
+
+.social-links a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.popular-content a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.social-links li {
+    margin-bottom: 10px;
+}
+
+.popular-content li {
+    margin-bottom: 10px;
+}
+
+.social-links a:hover {
+    color: #d0adba;
+}
+
+.popular-content a:hover {
+    color: #d0adba;
+}
+
+footer {
+    background-color: #aecaa9;
+    color: aliceblue;
+    padding: 20px 0px;
+}
+
+
+.salon-info p {
+    margin-top: 10px;
+    font-size: 15px;
+    line-height: 1, 5;
+    float: left;
+}
+
+.salon-info img {
+    width: 300px;
+    height: 300px;
+    float: left;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.contact-info {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+    float: right;
+}
+
+.comtact-info p {
+    margin: 5px 0px;
+}
+
+.contact-info img {
+    width: 100px;
+    height: 100px;
+    border-radius: 40px;
+}
+
+
+
+.contact-form {
+    background-image: url(pozadina2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    width: 1200px;
+    height: auto;
+    margin: 0 auto;
+    box-shadow: rgba(60, 64,67,0.3) 1px 3px 4px 1px
+    rgba(60, 64,67 0.15) 2px 5px 10px 2px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+label{
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+ input,textarea{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+ }
+  button{
+    background-color: aqua;
+    color:black;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 20px;
+  }
+  button:hover{
+    background-color: azure;
+  }
+
+.footer {
+    margin-top: 100px;
+    width: 100%;
+    height: 200px;
+    background-color: #aecaa9;
+}
+
+.footer img {
+    width: 100px;
+    position: absolute;
+
+    animation: butterfly 5s infinite linear;
+}
+
+@keyframes butterfly {
+    from {
+        left: 0px;
+    }
+
+    to {
+        left: 1000px;
+    }
+}
+
+
+@media screen and (max-width: 480px) {
+    .container {
+        width: 90%;
+    }
+
+    header img {
+        width: 80px;
+        height: 80px;
+    }
+
+    nav ul {
+        text-align: center;
+        margin-top: 10px;
+        clear: both;
+    }
+
+    nav ul li {
+        display: block;
+        margin-left: 0;
+    }
+
+    nav a {
+        font-size: 14px;
+    }
+
+    .sidebar {
+        width: 100%;
+        float: none;
+        margin-top: 20px;
+    }
+
+    .usluga img {
+        border-radius: 10px;
+    }
+
+    .contact-form {
+        width: 100%;
+        box-shadow: none;
+    }
+
+    .salon-info img {
+        width: 100%;
+        height: auto;
+        float: none;
+    }
+
+    .contact-info img {
+        width: 50px;
+        height: 50px;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 80%;
+    }
+
+    header img {
+        width: 90px;
+        height: 90px;
+    }
+
+    nav ul {
+        text-align: center;
+        margin-top: 10px;
+        clear: both;
+    }
+
+    nav ul li {
+        display: inline-block;
+        margin-left: 10px;
+    }
+
+    nav a {
+        font-size: 15px;
+    }
+
+    .sidebar {
+        width: 40%;
+        float: left;
+    }
+
+    .usluga img {
+        border-radius: 20px;
+    }
+
+    .contact-form {
+        width: 100%;
+        box-shadow: none;
+    }
+
+    .salon-info img {
+        width: 250px;
+        height: 250px;
+    }
+}
+
+
+@media screen and (max-width: 1024px) {
+    .container {
+        width: 70%;
+    }
+
+    header img {
+        width: 100px;
+        height: 100px;
+    }
+
+    nav ul li {
+        display: inline-block;
+        margin-left: 15px;
+    }
+
+    .sidebar {
+        width: 30%;
+        float: left;
+    }
+}
+
